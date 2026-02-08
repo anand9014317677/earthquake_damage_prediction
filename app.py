@@ -9,10 +9,9 @@ st.title("Earthquake Damage Prediction App")
 # ------------------------------
 # Download model from Google Drive (only first time)
 # ------------------------------
-model_url = "https://drive.google.com/uc?id=14fQfBzg6YNudsAW1fgPJjfmGTJ8NEiBu"
-model_path = "model.pkl"
 
-model = joblib.load(model_path)
+
+model = joblib.load("model.pkl")
 
 # ------------------------------
 # MODEL TRAINING COLUMNS (38)
